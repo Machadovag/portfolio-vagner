@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Simulação de envio
     setTimeout(function() {
 
-      // Mensagem de sucesso
+      // Simulação de envio (não envia dados reais para servidor)
       if (resultado) {
         resultado.textContent = 'Mensagem enviada com sucesso!';
         resultado.className = 'success';
