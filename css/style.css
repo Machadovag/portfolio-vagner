@@ -55,7 +55,7 @@ body {
 ========================= */
 nav {
   background: var(--nav-bg);
-  padding: 15px;
+  padding: 15px 25px;
 
   position: sticky;
   top: 0;
@@ -64,6 +64,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: relative;
 }
 
 /* Container dos links */
@@ -90,11 +92,16 @@ nav a:hover {
    Botão de tema
 ========================= */
 .theme-toggle {
+  position: absolute;
+  right: 20px;
+
   background: transparent;
   border: 1px solid var(--muted);
   color: var(--nav-link);
+
   padding: 6px 10px;
   border-radius: 6px;
+
   cursor: pointer;
   font-size: 1rem;
 }
