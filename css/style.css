@@ -71,6 +71,7 @@ nav {
   z-index: 1000;
   display: flex;
   align-items: center;
+  gap:30px;
 }
 
 /* Wrapper centralizado para os links */
