@@ -86,6 +86,7 @@ nav {
 
 nav a {
   color: var(--nav-link);
+  margin-right: 15px;
   text-decoration: none;
   font-weight: bold;
 }
