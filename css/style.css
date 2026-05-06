@@ -66,21 +66,16 @@ body {
 nav {
   background: var(--nav-bg);
   padding: 15px;
-
   position: sticky;
   top: 0;
   z-index: 1000;
-
-  display: flex;
-  justify-content: center;
-  gap: 30px;
 }
 
 /* Wrapper centralizado para os links */
 .nav-links {
   margin: 0 auto;
   display: flex;
-  gap: 12px;
+  gap: 30px;
   align-items: center;
 }
 
